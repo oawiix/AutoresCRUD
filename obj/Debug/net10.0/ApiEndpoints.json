@@ -1,0 +1,312 @@
+[
+  {
+    "ContainingType": "AutoresCRUD.Controllers.AutorController",
+    "Method": "BuscarAutorPorIdLivro",
+    "RelativePath": "api/Autor/buscar-autor-por-id-livro/{idLivro}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idLivro",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.AutorModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.AutorController",
+    "Method": "BuscarAutorPorId",
+    "RelativePath": "api/Autor/buscar-autor-por-id/{idAutor}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "idAutor",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.AutorModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.AutorController",
+    "Method": "CriarAutor",
+    "RelativePath": "api/Autor/criar-autor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autor",
+        "Type": "AutoresCRUD.Models.AutorModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.AutorModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.AutorController",
+    "Method": "EditarAutor",
+    "RelativePath": "api/Autor/editar-autor/{autorId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "autor",
+        "Type": "AutoresCRUD.Dtos.EditarAutorDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.AutorModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.AutorController",
+    "Method": "ExcluirAutor",
+    "RelativePath": "api/Autor/excluir-autor/{autorId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.AutorModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.AutorController",
+    "Method": "ListarAutores",
+    "RelativePath": "api/Autor/listar-autores",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[AutoresCRUD.Models.AutorModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.LivroController",
+    "Method": "BuscarLivroPorId",
+    "RelativePath": "api/Livro/buscar-livro-por-id/{livroId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livroId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.LivroModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.LivroController",
+    "Method": "BuscarLivrosPorAutorId",
+    "RelativePath": "api/Livro/buscar-livros-por-autor-id/{autorId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "autorId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[AutoresCRUD.Models.LivroModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.LivroController",
+    "Method": "CriarLivro",
+    "RelativePath": "api/Livro/criar-livro",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livro",
+        "Type": "AutoresCRUD.Dtos.CriarLivroDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.LivroModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.LivroController",
+    "Method": "EditarLivro",
+    "RelativePath": "api/Livro/editar-livro/{livroId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livro",
+        "Type": "AutoresCRUD.Dtos.EditarLivroDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "livroId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.LivroModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.LivroController",
+    "Method": "ExcluirLivro",
+    "RelativePath": "api/Livro/excluir-livro/{livroId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "livroId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[AutoresCRUD.Models.LivroModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "AutoresCRUD.Controllers.LivroController",
+    "Method": "ListarLivros",
+    "RelativePath": "api/Livro/listar-livros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "AutoresCRUD.Models.ResponseModel\u00601[[System.Collections.Generic.List\u00601[[AutoresCRUD.Models.LivroModel, AutoresCRUD, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
